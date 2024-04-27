@@ -6,4 +6,13 @@
     </style>
 
     <style name="Theme.Informative" parent="Base.Theme.Informative" />
+
+    <style name="Theme.Informative.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Informative.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Informative.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

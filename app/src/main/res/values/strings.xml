@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">Informative</string>
+
+
+    <string name="texttitle">Informações</string>
+
+
+    <string name="buttonvoltar">Voltar</string>
+    <string name="homebutton">Home</string>
+
+
+    <string name="button1">O que é CPU</string>
+    <string name="button2">O que é GPU</string>
+    <string name="button3">O que é Memória RAM</string>
+    <string name="button4">O que é Disco rígido</string>
+
+
+
+
+
+
+
+
+    <string name="title_activity_cpuactivity">Entendendo a CPU: O Cérebro do seu Computador</string>
+
+
+    <string name="cpu_larger_text">A CPU, ou Unidade Central de Processamento, é o cérebro do seu computador. É responsável por executar as instruções dos programas e realizar cálculos necessários para todas as tarefas que você realiza no seu dispositivo.\n
+
+    Imagine a CPU como o maestro de uma orquestra, coordenando todos os instrumentos para tocar uma bela música. Ela recebe instruções dos programas que você utiliza, como navegadores da web, editores de texto e jogos, e as traduz em ações específicas.\n
+    \n
+    A CPU é composta por vários componentes essenciais, incluindo:\n\n
+
+    Unidade de Controle (UC): Responsável por coordenar as operações de toda a CPU. Ela busca instruções na memória e as decodifica para que a CPU possa entendê-las.\n
+    Unidade Lógica e Aritmética (ULA): Encarregada de realizar operações matemáticas e lógicas, como adição, subtração, comparação e outras operações essenciais para o funcionamento do computador.\n
+    Registradores: São pequenas áreas de armazenamento dentro da CPU que guardam dados temporários e instruções enquanto são processadas. Eles ajudam a acelerar a execução de operações, armazenando informações que a CPU precisa acessar rapidamente.\n
+    Cache: Uma memória de acesso rápido que armazena temporariamente dados frequentemente acessados pela CPU. Isso reduz o tempo necessário para buscar informações na memória principal do computador, aumentando a velocidade de processamento.\n
+        Sem uma CPU funcionando adequadamente, seu computador não seria capaz de realizar tarefas complexas. Portanto, é crucial entender o papel fundamental que a CPU desempenha no funcionamento do seu dispositivo.\n
+    </string>
+
+
+
 </resources>

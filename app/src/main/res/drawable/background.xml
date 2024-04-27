@@ -11,7 +11,12 @@
 
        android:bottomLeftRadius="30dp"
         android:bottomRightRadius="30dp"
+        
 
+        />
+    <gradient
+        android:startColor="@color/roxo_claro"
+        android:angle="@integer/material_motion_duration_long_1"
         />
 
 </shape>

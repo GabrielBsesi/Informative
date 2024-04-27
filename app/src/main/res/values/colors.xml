@@ -2,9 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="backgroud">#1C1678</color>
+    <color name="backgroud">#3932AE</color>
     <color name="roxo_claro">#8576FF</color>
     <color name="ciano">#7BC9FF</color>
+    <color name="ciano_tras">#B77BC9FF</color>
     <color name="verde_claro">#A3FFD6</color>
 
 
