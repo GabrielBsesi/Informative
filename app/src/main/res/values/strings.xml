@@ -30,13 +30,81 @@
     \n
     A CPU é composta por vários componentes essenciais, incluindo:\n\n
 
-    Unidade de Controle (UC): Responsável por coordenar as operações de toda a CPU. Ela busca instruções na memória e as decodifica para que a CPU possa entendê-las.\n
-    Unidade Lógica e Aritmética (ULA): Encarregada de realizar operações matemáticas e lógicas, como adição, subtração, comparação e outras operações essenciais para o funcionamento do computador.\n
-    Registradores: São pequenas áreas de armazenamento dentro da CPU que guardam dados temporários e instruções enquanto são processadas. Eles ajudam a acelerar a execução de operações, armazenando informações que a CPU precisa acessar rapidamente.\n
-    Cache: Uma memória de acesso rápido que armazena temporariamente dados frequentemente acessados pela CPU. Isso reduz o tempo necessário para buscar informações na memória principal do computador, aumentando a velocidade de processamento.\n
+    1. Unidade de Controle (UC): Responsável por coordenar as operações de toda a CPU. Ela busca instruções na memória e as decodifica para que a CPU possa entendê-las.\n
+        \n
+    2. Unidade Lógica e Aritmética (ULA): Encarregada de realizar operações matemáticas e lógicas, como adição, subtração, comparação e outras operações essenciais para o funcionamento do computador.\n
+        \n
+    3. Registradores: São pequenas áreas de armazenamento dentro da CPU que guardam dados temporários e instruções enquanto são processadas. Eles ajudam a acelerar a execução de operações, armazenando informações que a CPU precisa acessar rapidamente.\n
+        \n
+    4. Cache: Uma memória de acesso rápido que armazena temporariamente dados frequentemente acessados pela CPU. Isso reduz o tempo necessário para buscar informações na memória principal do computador, aumentando a velocidade de processamento.\n
+        \n
         Sem uma CPU funcionando adequadamente, seu computador não seria capaz de realizar tarefas complexas. Portanto, é crucial entender o papel fundamental que a CPU desempenha no funcionamento do seu dispositivo.\n
     </string>
 
+
+    <string name="title_activity_gpuactivity">Desvendando a GPU: O Motor Gráfico do seu Computador</string>
+
+    <string name="gpu_larger_text">
+        A GPU, ou Unidade de Processamento Gráfico, é o componente responsável por processar e renderizar imagens, vídeos e gráficos no seu computador. Enquanto a CPU lida com tarefas gerais de processamento, como executar programas e realizar cálculos, a GPU é especializada em lidar com operações gráficas intensivas.\n
+        \n
+        Imagine a GPU como um artista talentoso que pinta uma paisagem digitalmente detalhada em tempo real enquanto você joga um videogame ou assiste a um filme em alta definição.\n
+        \n
+        A GPU é composta por vários elementos-chave, incluindo:\n
+        \n
+        1. Núcleos de Processamento: São unidades de processamento especializadas projetadas para lidar com cálculos gráficos. Uma GPU moderna pode ter centenas ou até milhares desses núcleos, permitindo realizar várias operações simultaneamente e acelerando o processo de renderização.\n
+        \n
+        2. Memória de Vídeo (VRAM): É a memória dedicada à GPU, usada para armazenar temporariamente dados relacionados a gráficos e texturas. Quanto mais VRAM uma GPU tiver, mais texturas e elementos gráficos complexos podem ser carregados de uma vez, resultando em melhor desempenho visual.\n
+        \n
+        3. Renderização 3D: A GPU é especialmente eficaz na renderização de gráficos 3D, essenciais para jogos, animações e aplicações de design. Ela calcula a posição, cor, sombra e textura de cada objeto em uma cena para criar uma experiência visual imersiva.\n
+        \n
+        4. Processamento de Vídeo: Além de renderizar gráficos 3D, a GPU também é responsável por decodificar e processar vídeos. Isso inclui a reprodução de vídeos em alta definição e a aplicação de filtros e efeitos especiais em tempo real.\n
+        \n
+        Com sua capacidade de processamento paralelo e foco em tarefas gráficas intensivas, a GPU desempenha um papel crucial no desempenho e na qualidade visual dos aplicativos e jogos modernos.\n
+    </string>
+
+
+    <string name="title_activity_ramactivity">Memória RAM: A Agilidade que Mantém seu Computador em Movimento</string>
+
+    <string name="ram_larger_text">
+        A Memória RAM (Random Access Memory), ou simplesmente RAM, é um dos componentes mais vitais do seu computador. Ela atua como uma área de trabalho temporária para armazenar dados e instruções que estão sendo usados ativamente pelo sistema operacional e pelos programas em execução.\n
+        \n
+        Imagine a RAM como a mesa de trabalho de um escritório: é onde você mantém os documentos e ferramentas que está usando atualmente, para acessá-los rapidamente enquanto trabalha.\n
+        \n
+        Aqui estão alguns pontos-chave sobre a Memória RAM:
+        \n
+        1. Acesso Rápido: A RAM é extremamente rápida em comparação com outros tipos de armazenamento, como discos rígidos ou SSDs. Isso permite que o computador acesse dados com velocidade impressionante, acelerando a inicialização de programas e a alternância entre aplicativos.\n
+        \n
+        2. Memória Volátil: A RAM é volátil, o que significa que ela perde todos os dados quando o computador é desligado. Isso contrasta com o armazenamento permanente, como discos rígidos ou SSDs, que retêm informações mesmo quando não há energia.\n
+        \n
+        3. Capacidade de Multitarefa: Quanto mais RAM seu computador tiver, mais programas e processos ele poderá executar simultaneamente sem diminuir a velocidade. Isso é especialmente importante em computadores modernos, onde multitarefa é a norma.\n
+        \n
+        4. Cache de Dados: A RAM também atua como um buffer entre a CPU e o armazenamento de longo prazo, mantendo temporariamente dados frequentemente acessados para acesso rápido. Isso ajuda a otimizar o desempenho geral do sistema.\n
+        \n
+        Embora a RAM seja essencial para o funcionamento eficiente do seu computador, é importante notar que ela é limitada em capacidade e mais cara do que o armazenamento permanente. Portanto, equilibrar a quantidade de RAM com outras especificações de hardware é crucial para obter o melhor desempenho possível do seu sistema.\n
+
+
+    </string>
+
+    <string name="title_activity_hdactivity">Entendendo o Disco Rígido (HD)</string>
+
+    <string name="hd_larger_text">
+        Um Disco Rígido (HD), também conhecido como Hard Disk Drive, é um componente fundamental em seu computador. Ele serve como uma unidade de armazenamento de longo prazo para guardar seus arquivos, programas e sistema operacional.\n
+        \n
+        Imagne o HD como o arquivo de gavetas em um escritório: é onde você mantém documentos importantes e arquivos que deseja acessar sempre que precisar, mesmo após desligar o computador.\n
+        \n
+        Aqui estão alguns pontos-chave sobre os Discos Rígidos:\n
+        \n
+        1. Armazenamento Duradouro: Os HDs são capazes de armazenar grandes volumes de dados por longos períodos de tempo, mesmo quando o computador está desligado. Isso os torna ideais para guardar fotos, vídeos, documentos e outros arquivos importantes.\n
+        \n
+        2. Velocidade de Leitura e Gravação: Embora sejam mais lentos em comparação com a Memória RAM e os SSDs, os HDs ainda oferecem velocidades de leitura e gravação adequadas para a maioria das tarefas cotidianas. No entanto, podem ser mais lentos ao inicializar o sistema operacional e abrir programas, em comparação com unidades de estado sólido (SSDs).\n
+        \n
+        3. Custo-efetividade: Os HDs tendem a ser mais acessíveis em termos de custo por gigabyte em comparação com os SSDs, o que os torna uma opção popular para armazenamento de grandes quantidades de dados.\n
+        \n
+        4. Capacidade de Armazenamento: Os HDs vêm em uma variedade de capacidades, desde algumas centenas de gigabytes até vários terabytes. Isso oferece flexibilidade para escolher o tamanho que melhor atende às suas necessidades de armazenamento.\n
+        \n
+        Embora os HDs sejam uma opção confiável e econômica para armazenamento de dados, é importante considerar suas limitações em termos de velocidade de acesso e resistência a impactos físicos. Dependendo das suas necessidades, pode ser vantajoso combinar um HD com uma unidade de estado sólido (SSD) para obter o melhor desempenho e confiabilidade.\n
+
+    </string>
 
 
 </resources>

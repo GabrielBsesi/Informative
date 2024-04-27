@@ -36,5 +36,35 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton imageButton2 = findViewById(R.id.imageButton2);
+        imageButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Criando um Intent para iniciar a nova Activity
+                Intent intent = new Intent(MainActivity.this, GPUActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton imageButton3 = findViewById(R.id.imageButton3);
+        imageButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Criando um Intent para iniciar a nova Activity
+                Intent intent = new Intent(MainActivity.this, RAMActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton imageButton4 = findViewById(R.id.imageButton4);
+        imageButton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Criando um Intent para iniciar a nova Activity
+                Intent intent = new Intent(MainActivity.this, HDActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

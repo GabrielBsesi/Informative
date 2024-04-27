@@ -19,8 +19,27 @@
 
         </activity>
         <activity
+            android:name=".GPUActivity"
+            android:exported="false"
+            >
+
+        </activity>
+        <activity
+            android:name=".RAMActivity"
+            android:exported="false"
+            >
+
+        </activity>
+        <activity
+            android:name=".HDActivity"
+            android:exported="false"
+            >
+
+        </activity>
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:icon="@drawable/icon_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
